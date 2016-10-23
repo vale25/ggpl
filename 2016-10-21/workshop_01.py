@@ -52,5 +52,4 @@ def structureFrame(beamDimensions, pillarDimensions, beamDistances, pillarDistan
 
 if __name__ == "__main__":
 	s = structureFrame([1,1], [1,2], [4,3,2,5,7,2], [3,6,2,3,6,8])
-	c = STRUCT([s, T(1)(3), s])
-	VIEW(c)
+	VIEW(s)
